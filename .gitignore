@@ -1,0 +1,14 @@
+/.vscode/
+
+*.swp
+*.tmp
+*.bak
+
+*.out
+*.exe
+
+*.o
+*.obj
+*.d
+
+*.dSYM
