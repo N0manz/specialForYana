@@ -5,7 +5,7 @@
 void insertionSort(Publication* array, size_t size, int (*comparator)(const void*, const void*)) {
     for (size_t i = 1; i < size; i++) {
         Publication key = array[i];
-        ssize_t j = i - 1;
+        int j = (int)i - 1;
         while (j >= 0 && comparator(&array[j], &key) > 0) {
             array[j + 1] = array[j];
             j--;
